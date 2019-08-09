@@ -33,9 +33,13 @@ Included in the template is an ESLint config ([.eslintrc.js](https://github.com/
 This requires some dependancies, which are listed in [package.json](https://github.com/denolibs/deno_template/blob/master/.eslintrc.js), and are installed with NPM.
 
 To install the dependancies from a command line
-    $ npm install
+```
+$ npm install
+```
 To run the ESLint linter from a command line
-    $ node node_modules/eslint/bin/eslint.js lib/**
+```
+$ node node_modules/eslint/bin/eslint.js lib/**
+```
     
 ## [Visual Studio Code](https://code.visualstudio.com/)
 
