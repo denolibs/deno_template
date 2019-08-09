@@ -4,7 +4,7 @@
   Set DEBUG=*
   IF [%JUSTTERMINATE%] == [OKAY] (
     SET JUSTTERMINATE=
-      desno.exe version >NUL 2>&1 && (
+      deno.exe version >NUL 2>&1 && (
         deno.exe run --allow-env .\lib\mod.ts %*
       ) || (
         echo 'deno.exe' is not installed, or could not be found in your %%PATH%%
